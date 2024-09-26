@@ -1,25 +1,25 @@
 set nocompatible		    "No compatibilidad con vi
 set number		    	    "Numeración de lineas
-syntax on		    	    "Resaltado de sintaxis
+syntax on		    	      "Resaltado de sintaxis
 set mouse=a		    	    "Soporte para mouse
 set cursorline			    "Resaltado de cursor
 set encoding=UTF-8  		"Codificacion para caracteres internacionales
 
 "Configuración de busquedas:
-set incsearch       		"Busqueda en tiempo real
-set hlsearch       	    	"Resaltar coincidencias
+set incsearch       		 "Busqueda en tiempo real
+set hlsearch       	     "Resaltar coincidencias
 
 "Esquema de color cargado desde: (~/.vim/colors)
 colorscheme codedark
 
 "Configuración de TABs
-set tabstop=4			    "Tabulación de 4 espacio
-set expandtab			    "Convertir <TAB> a espacios
+set tabstop=4			      "Tabulación de 4 espacio
+set expandtab			      "Convertir <TAB> a espacios
 set shiftwidth=4		    "Espacios de indentación
 
 set autoindent 			    "Indentado automático
 set smartindent			    "Indentación mejorada
-set cindent 			    "Sangrado para lenguaje C
+set cindent 			      "Sangrado para lenguaje C
 
 "Función para autocompilar 'YouCompleteMe'
 function! BuildYCM(info)
