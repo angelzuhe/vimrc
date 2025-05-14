@@ -1,5 +1,19 @@
+set nocompatible
 set number
-syntax enable
+set mouse=a
+set encoding=UTF-8
+set incsearch
+set hlsearch
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set autoindent
+set smartindent
+set cindent
+
+syntax on
+
+colorscheme dracula
 
 call plug#begin()
 " Gestionando los plugins con 'Plugvim'
@@ -11,8 +25,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'jiangmiao/auto-pairs'
 call plug#end()
-
-colorscheme dracula
 
 " Para gvim en Windows
 set guifont=Consolas:h12:cANSI
